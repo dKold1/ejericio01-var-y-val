@@ -1,0 +1,59 @@
+
+const val AUREO = 1.618033988
+const val DIAS_OCTUBRE= 31
+const val MENSAJE = "Buenos Dias"
+const val MAXIMA_CALIFICACION = 10
+const val CONJELACION_AGUA = 0
+
+
+const val CODIGO_ERROR: Int = 104
+const val MARCA_AUTO: String = "CHEVROLET"
+const val GRAVEDAD_MARTE: Double = 3.73
+const val NEGADO: Boolean = false 
+const val SEPARADOR: Char = '/'
+
+fun main() {
+ 
+    var trabaja = false
+    var nombre = "Esteban"
+    var estatura = 1.80
+    var calificacion = 9.5
+    var edad = 22
+    
+
+    var ciclos: Int = 5
+    var saludo: String = "Buenas noches"
+    var activacion: Boolean = true
+    var numero: Char = '9'
+    var costo: Double = 3.99
+    
+    println("Constantes Implícitas")
+    println("Valor del numeor aureo: $AUREO")
+    println("Días del mes de Octubre: $DIAS_OCTUBRE")
+    println("Mensaje: $MENSAJE ")
+    println("Máxima calificación: $MAXIMA_CALIFICACION")
+    println("Tempertura de conjelación del agua: $CONJELACION_AGUA")
+    
+    println("Constantes Explícitas")
+    println("Código error: $CODIGO_ERROR")
+    println("Marca de auto: $MARCA_AUTO")
+    println("Gravedad de marte: $GRAVEDAD_MARTE")
+    println("Preoceso negado: $NEGADO")
+    println("Separador de texto: $SEPARADOR")
+    
+    println("Variables Implícitas")
+    println("La persona trabaja?: $trabaja")
+    println("Nombre: $nombre")
+    println("Estatura: $estatura")
+    println("Calificación: $calificacion")
+    println("Edad: $edad")
+    
+    println("Variables Explícitas")
+    println("Ciclos dados: $ciclos")
+    println("Saludo: $saludo")
+    println("Activacion: $activacion")
+    println("Numero: $numero")
+    println("Costo: $costo")
+    
+  
+    }
